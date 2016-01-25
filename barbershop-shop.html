@@ -36,8 +36,7 @@
     </header>
     <main class="container">
       <h1 class="shop-section-index">Средства для ухода</h1>
-      <div class="breadcrumbs">
-        <ul>
+        <ul class="breadcrumbs">
           <li>
             <a href="#">Главная</a>
           </li>
@@ -48,9 +47,8 @@
             <a href="#">Средства ухода</a>
           </li>
         </ul>
-      </div>
-      <section class="shop-selection">
-        <form class="option" action="https://echo.htmlacademy.ru" method="post">
+      <div class="left-colum">
+        <form class="shop-filters" action="https://echo.htmlacademy.ru" method="post">
           <h2 class="producer-index">Производители:</h2>
           <label class="selection-producer">Baxter of california
           <input type="checkbox" name="baxter" checked>
@@ -71,46 +69,55 @@
           <input type="checkbox" name="american-crew" checked>
           </label>
           <h2 class="product-group-index">Группы товаров:</h2>
+          <label class="select-group">Бритвенные принадлежности
+          <input type="radio" name="shaving" value="1">
+          </label>
+          <label class="select-group">Средства для ухода
+          <input type="radio" name="care-arsenal" value="2">
+          </label>
+          <label class="select-group">Аксессуары
+          <input type="radio" name="accessories" value="3">
+          </label>
           <button class="btn selection-result" type="submit">Показать</button>
        </form>
-      </section>
-      <article class="product-card">
+    </div>
+    <div class="right-colum">
+      <div class="product-card">
         <img src="img/travel-kit-baxter.png" width="200" height="100" alt="Набор для путешествий «Baxter»">
         <h4 class="product-index">Набор для путешествий<br>«BAXTER OF CALIFORNIA»</h4>
-        <p class="price"> 2 900 руб.</p>
+        <span class="price"> 2 900 руб.</span>
         <a href="#" class="btn">Купить</a>
-      </article>
-      <article class="product-card">
+      </div>
+      <div class="product-card">
         <img src="img/conditioner-baxter.png" width="200" height="100" alt="Увлажняющий кондиционер «Baxter»">
         <h4 class="product-index">Увлажняющий кондиционер<br>«BAXTER OF CALIFORNIA»</h4>
-        <p class="price"> 750 руб.</p>
+        <span class="price"> 750 руб.</span>
         <a href="#" class="btn">Купить</a>
-      </article>
-      <article class="product-card">
+      </div>
+      <div class="product-card">
         <img src="img/hair-gel-suavecito.png" width="200" height="100" alt="Гель для волос «Suavecito»">
         <h4 class="product-index">Гель для волос<br>«Suavecito»</h4>
-        <p class="price"> 290 руб.</p>
+        <span class="price"> 290 руб.</span>
         <a href="#" class="btn">Купить</a>
-      </article>
-      <article class="product-card">
+      </div>
+      <div class="product-card">
         <img src="img/clay-styling-american-crew.png" width="200" height="100" alt="Глина для укладки волос «American Crew»">
         <h4 class="product-index">Глина для укладки волос<br>«American Crew»</h4>
-        <p class="price"> 500 руб.</p>
+        <span class="price"> 500 руб.</span>
         <a href="#" class="btn">Купить</a>
-      </article>
-      <article class="product-card">
+      </div>
+      <div class="product-card">
         <img src="img/hair-gel-american-crew.png" width="200" height="100" alt="Гель для волос «American Crew»">
         <h4 class="product-index">Гель для волос<br>«American Crew»</h4>
-        <p class="price"> 300 руб.</p>
+        <span class="price"> 300 руб.</span>
         <a href="#" class="btn">Купить</a>
-      </article>
-      <article class="product-card">
+      </div>
+      <div class="product-card">
         <img src="img/shaving-kit-baxter.png" width="200" height="100" alt="Набор для бритья «Baxter»">
         <h4 class="product-index" >Набор для бритья<br>«BAXTER OF CALIFORNIA»</h4>
-        <p class="price"> 3 900 руб.</p>
+        <span class="price"> 3 900 руб.</span>
         <a href="#" class="btn">Купить</a>
-      </article>
-
+      </div>
       <ul class="page-navigation">
         <li>
           <a href="#" class="page-btn page1">1</a>
@@ -125,6 +132,7 @@
           <a href="#" class="page-btn page2">3</a>
         </li>
       </ul>
+    </div>
     </main>
     <footer class="main-footer">
       <div class="container">

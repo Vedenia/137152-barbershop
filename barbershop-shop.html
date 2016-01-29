@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -47,7 +48,7 @@
         </ul>
       <div class="left-colum">
         <form class="shop-filters" action="https://echo.htmlacademy.ru" method="post">
-          <h2 class="producer-index">Производители:</h2>
+          <span class="producer-index">Производители:</span>
           <label class="selection-producer">Baxter of california
           <input type="checkbox" name="baxter" checked>
           </label >
@@ -66,7 +67,7 @@
           <label class="selection-producer">American crew
           <input type="checkbox" name="american-crew" checked>
           </label>
-          <h2 class="product-group-index">Группы товаров:</h2>
+          <span class="product-group-index">Группы товаров:</span>
           <label class="select-group">Бритвенные принадлежности
           <input type="radio" name="shaving" value="1">
           </label>
@@ -81,40 +82,52 @@
     </div>
     <div class="right-colum">
       <div class="product-card">
-        <img src="img/travel-kit-baxter.png" width="200" height="100" alt="Набор для путешествий «Baxter»">
+        <img src="img/travel-kit-baxter.jpg" width="220" height="165" alt="Набор для путешествий «Baxter»">
         <h4 class="product-index">Набор для путешествий<br>«BAXTER OF CALIFORNIA»</h4>
-        <span class="price"> 2 900 руб.</span>
-        <a href="#" class="btn">Купить</a>
+        <div class="price-block">
+          <span class="price"> 2 900 руб.</span>
+          <a href="#" class="btn">Купить</a>
+        </div>
       </div>
       <div class="product-card">
-        <img src="img/conditioner-baxter.png" width="200" height="100" alt="Увлажняющий кондиционер «Baxter»">
+        <img src="img/conditioner-baxter.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter»">
         <h4 class="product-index">Увлажняющий кондиционер<br>«BAXTER OF CALIFORNIA»</h4>
-        <span class="price"> 750 руб.</span>
-        <a href="#" class="btn">Купить</a>
+        <div class="price-block">
+          <span class="price"> 750 руб.</span>
+          <a href="#" class="btn">Купить</a>
+        </div>
       </div>
       <div class="product-card">
-        <img src="img/hair-gel-suavecito.png" width="200" height="100" alt="Гель для волос «Suavecito»">
+        <img src="img/hair-gel-suavecito.jpg" width="220" height="165" alt="Гель для волос «Suavecito»">
         <h4 class="product-index">Гель для волос<br>«Suavecito»</h4>
-        <span class="price"> 290 руб.</span>
-        <a href="#" class="btn">Купить</a>
+        <div class="price-block">
+          <span class="price"> 290 руб.</span>
+          <a href="#" class="btn">Купить</a>
+        </div>
       </div>
       <div class="product-card">
-        <img src="img/clay-styling-american-crew.png" width="200" height="100" alt="Глина для укладки волос «American Crew»">
+        <img src="img/clay-styling-american-crew.jpg" width="220" height="165" alt="Глина для укладки волос «American Crew»">
         <h4 class="product-index">Глина для укладки волос<br>«American Crew»</h4>
-        <span class="price"> 500 руб.</span>
-        <a href="#" class="btn">Купить</a>
+        <div class="price-block">
+          <span class="price"> 500 руб.</span>
+          <a href="#" class="btn">Купить</a>
+        </div>
       </div>
       <div class="product-card">
-        <img src="img/hair-gel-american-crew.png" width="200" height="100" alt="Гель для волос «American Crew»">
+        <img src="img/hair-gel-american-crew.jpg" width="220" height="165" alt="Гель для волос «American Crew»">
         <h4 class="product-index">Гель для волос<br>«American Crew»</h4>
-        <span class="price"> 300 руб.</span>
-        <a href="#" class="btn">Купить</a>
+        <div class="price-block">
+          <span class="price"> 300 руб.</span>
+          <a href="#" class="btn">Купить</a>
+        </div>
       </div>
       <div class="product-card">
-        <img src="img/shaving-kit-baxter.png" width="200" height="100" alt="Набор для бритья «Baxter»">
+        <img src="img/shaving-kit-baxter.jpg" width="220" height="165" alt="Набор для бритья «Baxter»">
         <h4 class="product-index" >Набор для бритья<br>«BAXTER OF CALIFORNIA»</h4>
-        <span class="price"> 3 900 руб.</span>
-        <a href="#" class="btn">Купить</a>
+        <div class="price-block">
+          <span class="price"> 3 900 руб.</span>
+          <a href="#" class="btn">Купить</a>
+        </div>
       </div>
       <ul class="page-navigation">
         <li>

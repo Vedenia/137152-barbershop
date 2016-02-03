@@ -14,19 +14,218 @@ font-weight: bold;
 font-family: PT Sans Narrow, Myriad Pro, Arial, serif;
 }
 
-.shop-section-index {
-font-size: 30px;
-line-height: 24px;
-color: #000000;
-font-weight: bold;
-font-family: PT Sans Narrow, Myriad Pro, Arial, serif;	
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
 }
 
-.producer-index, .product-group-index {
-font-size: 24px;
-line-height: 24px;
-color: #000000;
-font-weight: bold;
-font-family: PT Sans Narrow, Myriad Pro, Arial, serif;	
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background: rgba(14, 196, 220, 0.5);
 }
 
+.main-header {
+  margin-bottom: 60px;
+  background: rgba(250, 120, 120, 0.5);
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  background: rgba(250, 200, 120, 0.5);
+}
+
+.user-block {
+   float: right;
+   width: 140px;
+   background: rgba(50, 50, 120, 0.5);
+}
+
+
+/* css для страницы index */
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+  background: rgba(50, 50, 120, 0.5);
+}
+
+.features {
+  margin-bottom: 80px;
+  background: rgba(50, 50, 120, 0.5);
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+  background: rgba(100, 100, 120, 0.5);
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+  background: rgba(70, 0, 120, 0.5);
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+  background: rgba(70, 0, 200, 0.5);
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+  background: rgba(70, 0, 200, 0.5);
+}
+
+/* css для страницы shop */
+
+.section-title {
+ 	float: left;
+ 	width: 780px;
+ 	background: rgba(20, 20, 50, 0.5);
+ 	margin-bottom: 55px;
+}
+ 
+.left-column {
+ 	float: left;
+ 	width: 220px;
+ 	background: rgba(255, 126, 0, 0.5)
+}
+ 
+.right-column {
+ 	float: right;
+ 	width: 700px;
+ 	background: rgba(255, 240, 0, 0.5)
+} 
+
+.product-card {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background: rgba(126,0,125,0.5);
+}
+
+.product-card:nth-child(3n) {
+	float: left;
+	width: 220px;
+	margin-right: 0;
+	background: rgba(126,0,200,0.5);
+}
+
+.page-navigation {
+  float: left;
+  width: 192px;
+  margin-top: 24px;
+  margin-bottom: 0;
+  background: rgba(126,0,200,0.5);
+}
+
+.main-footer-item-shop {
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background: rgba(126,30,200,0.5);
+}
+
+
+/* css для страницы item */
+
+.gallery-product {
+ 	float:left;
+ 	width: 460px;
+ 	margin-right: 90px;
+ 	background: rgba(250, 00, 200, 0.5);
+}
+
+.big_img {
+ 	width: 460px;
+ 	height: 498px;
+ 	margin-bottom: 20px;
+}
+
+.min_img { 
+ 	float: left;
+ 	width: 140px;
+ 	height: 149px;
+ 	margin-right: 20px;
+}
+
+.min_img:last-child { 
+ 	margin-right: 0;
+}
+
+.info-block {
+ 	float: left;
+ 	width: 390px;
+ 	background: rgba(53, 179, 91, 0.5);
+}
+
+.description-product {
+float: left;
+padding-top: 22px;
+margin-bottom: 38px;
+background: rgba(30, 39, 91, 0.5);
+}
+
+.product-price {
+float: left;
+margin-bottom: 66px;
+background: rgba(220, 220, 250, 0.5);
+}
+
+.list-kit {
+float: left;
+width: 390px;
+
+background: rgba(170, 200, 250, 0.5);
+}
+
+
+/* css общий */
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background: rgba(126,30,200,0.5);
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+  background: rgba(1,230,200,0.5);
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+  background: rgba(1,230,200,0.5)
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+  background: rgba(1,230,200,0.5)
+}
